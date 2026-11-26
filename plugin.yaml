@@ -2,7 +2,7 @@ id: alonabot-plugin-setu
 name: Setu
 role: plugin
 source: github.com/FlanChanXwO/alonabot-plugin-setu
-version: 0.2.2
+version: 0.2.3
 author: FlanChanXwO
 description: Send random non-R18 illustrations from a chat phrase.
-icon: logo.png
+icon: logo.webp

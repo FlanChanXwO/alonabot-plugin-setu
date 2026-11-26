@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.3]
+
+- Preserve the AstrBot logo animation in a smaller WebP for plugin-store listing.
+
+
 ## [0.2.2]
 
 - Resolve the latest AlonaBot SDK for CI and release builds.
