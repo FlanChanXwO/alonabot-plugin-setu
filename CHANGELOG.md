@@ -1,19 +1,11 @@
 # Changelog
 
-The entries below are examples. Replace them with your plugin's changes, versions, and release dates before publishing. Follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). `scripts/release.sh` extracts the matching version section as release notes.
+## [0.2.1]
 
-## [Unreleased]
+- Add a configurable per-request picture limit with a Chinese notice for requests above it.
 
-### Added
+## [0.2.0]
 
-- Example: Add a lookup command.
-
-### Fixed
-
-- Example: Fix the reply when an optional argument is omitted.
-
-## [0.1.0] - 2026-01-01
-
-### Added
-
-- Example: Release the plugin with a greeting command.
+- Replace the `/setu` command with Chinese chat phrases for one to ten non-R18 illustrations.
+- Add OneBot 11 merged-forward modes for multiple images or all requests.
+- Validate original images, replace unusable results, and use a bounded download queue for batches.

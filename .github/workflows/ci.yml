@@ -91,9 +91,6 @@ jobs:
         with:
           go-version-file: go.mod
           cache: false
-      - name: Update SDK to latest
-        if: needs.repository.outputs.has_go == 'true' || needs.repository.outputs.has_component == 'true'
-        run: go get github.com/AlonaBot/AlonaBot@latest
 
       - name: Check Go formatting
         if: needs.repository.outputs.has_go == 'true'
