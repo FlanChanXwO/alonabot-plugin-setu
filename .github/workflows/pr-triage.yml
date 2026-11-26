@@ -23,5 +23,6 @@ jobs:
       - name: Assign maintainer
         env:
           GH_TOKEN: ${{ github.token }}
+          MAINTAINER: ${{ github.repository_owner }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-        run: gh pr edit "$PR_URL" --add-assignee owner
+        run: gh pr edit "$PR_URL" --add-assignee "$MAINTAINER"

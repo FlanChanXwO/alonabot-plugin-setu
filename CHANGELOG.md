@@ -1,19 +1,16 @@
 # Changelog
 
-The entries below are examples. Replace them with your plugin's changes, versions, and release dates before publishing. Follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). `scripts/release.sh` extracts the matching version section as release notes.
+## [0.2.2]
 
-## [Unreleased]
+- Resolve the latest AlonaBot SDK for CI and release builds.
 
-### Added
 
-- Example: Add a lookup command.
+## [0.2.1]
 
-### Fixed
+- Add a configurable per-request picture limit with a Chinese notice for requests above it.
 
-- Example: Fix the reply when an optional argument is omitted.
+## [0.2.0]
 
-## [0.1.0] - 2026-01-01
-
-### Added
-
-- Example: Release the plugin with a greeting command.
+- Replace the `/setu` command with Chinese chat phrases for one to ten non-R18 illustrations.
+- Add OneBot 11 merged-forward modes for multiple images or all requests.
+- Validate original images, replace unusable results, and use a bounded download queue for batches.
