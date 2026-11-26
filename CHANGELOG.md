@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.2]
+
+- Build with AlonaBot SDK v0.3.3.
+
+
 ## [0.2.1]
 
 - Add a configurable per-request picture limit with a Chinese notice for requests above it.

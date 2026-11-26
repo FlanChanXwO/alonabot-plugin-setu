@@ -1,6 +1,6 @@
 # 开发与验收
 
-使用 `go.mod` 声明的 Go 和 AlonaBot SDK；CLI 用相同 SDK 版本构建。CI 的安装命令见 [Component quality](../.github/workflows/ci.yml)。在仓库根目录运行：
+使用 `go.mod` 声明的 Go 和 AlonaBot SDK；CLI 用相同 SDK 版本构建。每次发布前核对最新稳定版 SDK，将已验证的版本记录在 `go.mod` 与 `go.sum`。CI 的安装命令见 [Component quality](../.github/workflows/ci.yml)。在仓库根目录运行：
 
 ```fish
 go vet ./...

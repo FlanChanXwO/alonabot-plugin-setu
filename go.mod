@@ -2,7 +2,7 @@ module github.com/FlanChanXwO/alonabot-plugin-setu
 
 go 1.27.1
 
-require github.com/AlonaBot/AlonaBot v0.3.0
+require github.com/AlonaBot/AlonaBot v0.3.3
 
 require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
