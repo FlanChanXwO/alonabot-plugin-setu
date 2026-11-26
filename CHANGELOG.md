@@ -2,7 +2,7 @@
 
 ## [0.2.2]
 
-- Build with AlonaBot SDK v0.3.3.
+- Resolve the latest AlonaBot SDK for CI and release builds.
 
 
 ## [0.2.1]
